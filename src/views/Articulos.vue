@@ -53,7 +53,7 @@
                 </div>
             </div>
         </footer>
-    <router-link to="{name: 'Articulos'}"></router-link>
+    <router-link tag="button" to="{name: 'Articulos'}"></router-link>
     <router-view></router-view>
     </div>
 </template>

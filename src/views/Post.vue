@@ -1,16 +1,16 @@
 <template>
     <div>
-        <!-- CONTENIDO PARA LA VISTA PRINCIPAL O PADRE DEL POST -->
         <div>
-            <router-link :to="{name: 'Articulos'}"></router-link> 
+            <router-link tag="button" to="{name: 'Articulos'}"></router-link> 
+            <router-view></router-view>
         </div>
-        <router-view></router-view>
     </div>
 </template>
 
 <script>
     export default {
-        name: 'Post'
+        name: 'Post',   
+           
     }
 </script>
 
